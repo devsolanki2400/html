@@ -1,0 +1,22 @@
+/* Descendant Selector (any <p> inside <div>) */
+div p {
+    color: blue;
+    font-style: italic;
+}
+
+/* Child Selector (only direct <p> children of .child-example div) */
+.child-example > p {
+    color: red;
+    font-weight: bold;
+}
+
+/* Adjacent Sibling Selector (first <p> right after <h2>) */
+h2 + p {
+    background-color: yellow;
+    padding: 5px;
+}
+
+/* General Sibling Selector (all <p> after <h3>) */
+h3 ~ p {
+    text-decoration: underline;
+}
