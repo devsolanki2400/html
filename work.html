@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 - Table</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: teal;
+        }
+        td {
+            background-color: #ffe4c4;
+        }
+        tfoot td {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Assignment 2 - Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pencils</td>
+                <td>2</td>
+                <td>$1</td>
+                <td>$2</td>
+            </tr>
+            <tr>
+                <td>Erasers</td>
+                <td>4</td>
+                <td>$0.50</td>
+                <td>$2</td>
+            </tr>
+            <tr>
+                <td>Subtotal</td>
+                <td></td>
+                <td></td>
+                <td>$4</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>10%</td>
+                <td>$0.4</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Footer of the table</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
